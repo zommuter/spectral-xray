@@ -38,10 +38,19 @@ $$I = I_0\cdot\exp{\left(\int \mu(x)\, dx\right)}$$
 ![](triple.png){ height=75%}
 
 # Multispektrale Röntgen-Absorptiometrie
-
-# Alternative: Filtervariation
+- Mehrere Radiographien bei unterschiedlichen Energien
+- Numerischer Fit mit den wahrscheinlichsten Atomen oder Substanzen (z.B. Knochen, Wasser, Nierensteine)
+- Pixelweise Analyse der geschichteten Zusammensetzung
+- Keine 3D-Information!
 
 # Abschätzung Patientendosis
+- Für optimale Ergebnisse Ausnutzung des vollen Generatorspektrums
+- z.B. 40-125 kV
+- Dosis bei niedriger Spannung relativ hoch
+- Alternative zu Energievariation: verschiedene Filter
+- Abschätzung: ca. 100 Aufnahmen für 100 verschiedene Atomzahlen
+- CXR je 0.1 mSv $\Rightarrow$ 10 mSv, ähnlich CT
+- Reduktion der Dosis durch Reduktion auf wahrscheinlichste Substanzen
 
 # Ausblick
 - Kombination CT oder Parallaxenverschiebung

@@ -34,6 +34,8 @@ $$I = I_0\cdot\exp{\left(\int \mu(x)\, dx\right)}$$
 - Anwendung z.B. Knochendichtemessung
 
 # Triple-Röntgen-Absorptiometrie
+- Analog mit dritter Energie  
+![](triple.png){ height=75%}
 
 # Multispektrale Röntgen-Absorptiometrie
 

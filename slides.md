@@ -1,6 +1,8 @@
-% Ermittlung Atomarer Zusammensetzung durch multispektrales Röntgen
-% Tobias Kienzler
-% 21.09.2018
+---
+title: Ermittlung Atomarer Zusammensetzung durch multispektrales Röntgen
+author: Tobias Kienzler
+date: 21.09.2018
+...
 
 # Motivation
 - Unterstützung der Röntgendiagnostik:  

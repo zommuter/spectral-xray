@@ -3,22 +3,26 @@
 % 21.09.2018
 
 # Motivation
-- Unterstützung der Röntgendiagnostik: Atomare Zusammensetzung
-- Gängige Detektoren: Komplettes Spektrum absorbiert (Ausnahme: DXA)
+- Unterstützung der Röntgendiagnostik:  
+Atomare Zusammensetzung
+- Gängige Detektoren: Komplettes Spektrum absorbiert  
+(Ausnahme: DXA)
 - Untersuchung möglicher Adaption existierender Aufbauten
 
-# Grundlagen: Absorption
+# Grundlagen: Absorption I
 - Absorption elektromagnetischer Strahlung **exponentiell** in Dicke $d$, Lambert-Beersches Gesetz:  
 $$I = I_0\cdot\exp{\left(-\mu\cdot d\right)}$$
 - Massenschwächungskoeffizient $\mu/\rho$ abhängig von Photonenenergie
+
+# Grundlagen: Absorption II
 - Tabelliert, z.B. <https://www.nist.gov/pml/x-ray-mass-attenuation-coefficients>  
-![](murho_tissue.png)
+![](murho_tissue.png){ height=50% }
 - Zusammengesetztes Material: Integration (vgl. Hounsfield-Skala im CT)  
-$$I = I_0\cdot\int \mu(x)\, dx$$
+$$I = I_0\cdot\exp{\left(\int \mu(x)\, dx\right)}$$
 
 # Grundlagen: Röhrenspektrum & Detektor
 - Emittiertes Spektrum kontinuierlich, abhängig von Anodenmaterial, Filter und Beschleunigungsspannung  
-[![](xray-alter3.png)](https://www.radiologycafe.com/radiology-trainees/frcr-physics-notes/production-of-x-rays)
+[![](xray-alter3.png){ height=40% }](https://www.radiologycafe.com/radiology-trainees/frcr-physics-notes/production-of-x-rays)
 - Detektor registriert alle Photonen, kein monochromatisches Abfahren einzelner Wellenlängen möglich
 
 # Dual-Röntgen-Absorptiometrie (DXA)

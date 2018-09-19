@@ -29,7 +29,7 @@ $$I = I_0\cdot\exp{\left(\int \mu(x)\, dx\right)}$$
 
 # Grundlagen: Röhrenspektrum & Detektor
 - Emittiertes Spektrum kontinuierlich, abhängig von Anodenmaterial, Filter und Beschleunigungsspannung  
-[![](xray-alter3.png){ height=40% }](https://www.radiologycafe.com/radiology-trainees/frcr-physics-notes/production-of-x-rays)
+[![](XrtSpectrum.jpg){ height=40% }](https://commons.wikimedia.org/w/index.php?curid=12711485)
 - Detektor registriert alle Photonen, kein monochromatisches Abfahren einzelner Wellenlängen möglich
 
 # Dual-Röntgen-Absorptiometrie (DXA)

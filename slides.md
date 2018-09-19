@@ -1,14 +1,19 @@
 ---
 title: Ermittlung Atomarer Zusammensetzung durch multispektrales Röntgen
-author: Tobias Kienzler
+author: |
+  Tobias Kienzler  
+  <tobias.kienzler@gmx.de>  
+  https://github.com/zommuter/spectral-xray
 date: 21.09.2018
+theme: Berlin
 ...
 
 # Motivation
 - Unterstützung der Röntgendiagnostik:  
-Atomare Zusammensetzung
+Atomare Zusammensetzung aus spektraler Analyse
 - Gängige Detektoren: Komplettes Spektrum absorbiert  
-(Ausnahme: DXA)
+(Ausnahme: Dual-Röntgen-Absorptiometrie / DXA)
+- Idee: Rekonstruktion spektral aufgelöster Absorption
 - Untersuchung möglicher Adaption existierender Aufbauten
 
 # Grundlagen: Absorption I
@@ -34,14 +39,17 @@ $$I = I_0\cdot\exp{\left(\int \mu(x)\, dx\right)}$$
 - Anwendung z.B. Knochendichtemessung
 
 # Triple-Röntgen-Absorptiometrie
-- Analog mit dritter Energie  
-![](triple.png){ height=75%}
+- Analog mit dritter Energie, hier RGB-Überlagerung:  
+![](triple.png){ height=65%}  
+Unterscheidung Al (rot) und Cu (orange) oben.  
+Für Treppenphantom zu wenig Information.
 
 # Multispektrale Röntgen-Absorptiometrie
-- Mehrere Radiographien bei unterschiedlichen Energien
+- Mehrere Radiographien bei unterschiedlichen Energien (also Röhrenspektren)
+- Rekonstruktion der spektral aufgelösten Absorption, bzw.
 - Numerischer Fit mit den wahrscheinlichsten Atomen oder Substanzen (z.B. Knochen, Wasser, Nierensteine)
-- Pixelweise Analyse der geschichteten Zusammensetzung
-- Keine 3D-Information!
+- Pixelweise Analyse der geschichteten Zusammensetzung (eindeutig bis auf Dichte)
+- Keine vollständige 3D-Information!
 
 # Abschätzung Patientendosis
 - Für optimale Ergebnisse Ausnutzung des vollen Generatorspektrums
@@ -53,4 +61,11 @@ $$I = I_0\cdot\exp{\left(\int \mu(x)\, dx\right)}$$
 - Reduktion der Dosis durch Reduktion auf wahrscheinlichste Substanzen
 
 # Ausblick
-- Kombination CT oder Parallaxenverschiebung
+- Erstellung der Fit-Software
+- Kombination CT (oder Parallaxenverschiebung)
+    - ähnliche Patientendosis wie CT
+    - 3D-Information, damit auch Rekonstruktion der Dichte möglich
+- Korrelation des Spektrums benachbarter Pixel $\Rightarrow$
+    - Rauschen verringern
+    - Auflösung erhöhen
+    - Dosis verringern

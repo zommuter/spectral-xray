@@ -25,16 +25,16 @@ $$I = I_0\cdot\exp{\left(\int \mu(x)\, dx\right)}$$
 
 # Grundlagen: Absorption II
 - Tabelliert, z.B. <https://www.nist.gov/pml/x-ray-mass-attenuation-coefficients>  
-![](murho_tissue.png){ height=50% }
+![](murho_tissue.png){ height=60% }
 
 # Grundlagen: Röhrenspektrum & Detektor
 - Emittiertes Spektrum kontinuierlich, abhängig von Anodenmaterial, Filter und Beschleunigungsspannung  
-[![](XrtSpectrum.jpg){ height=40% }](https://commons.wikimedia.org/w/index.php?curid=12711485)
+[![](XrtSpectrum.jpg){ height=50% }](https://commons.wikimedia.org/w/index.php?curid=12711485)
 - Detektor registriert alle Photonen, kein monochromatisches Abfahren einzelner Wellenlängen möglich
 
 # Dual-Röntgen-Absorptiometrie (DXA)
 - Subtraktion zweier Aufnahmen bei unterschiedlicher Energie  
-[![](index_clip_image002_0010.jpg){ height=50%}  
+[![](index_clip_image002_0010.jpg){ height=60%}  
 \tiny [http://www.upstate.edu/radiology/education/rsna/radiography/dual.php]](http://www.upstate.edu/radiology/education/rsna/radiography/dual.php)
 - Anwendung z.B. Knochendichtemessung
 

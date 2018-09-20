@@ -1,0 +1,6 @@
+#!/bin/bash
+pandoc -t beamer slides.md -o slides.pdf && start slides.pdf
+convert -density 285.75 slides.pdf -scene 1 slides-%02d.png
+for i in $(seq -f%02g 11); do for f in $i*.m4a; do ffmpeg -loop 1 -i slides-$i.png -i "$f" -c:v libx264 -c:a aac -b:a 192k -shortest -r 30 "${f%.m4a}.mp4"; done; done
+for i in $(seq -f%02g 11); do for f in $i*.mp4; do echo file \'$f\'; done; done > slides.txt
+ffmpeg -f concat -safe 0 -i slides.txt -c copy slides.mp4

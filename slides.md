@@ -69,3 +69,8 @@ Für Treppenphantom zu wenig Information.
     - Rauschen verringern
     - Auflösung erhöhen
     - Dosis verringern
+
+# Fragen & Fortsetzung
+Jederzeit auch auf <https://github.com/zommuter/spectral-xray/issues> möglich.
+
+[![](qr-issues.eps){ height=60%}](https://github.com/zommuter/spectral-xray/issues)
